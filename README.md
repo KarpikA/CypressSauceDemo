@@ -1,5 +1,5 @@
 Run cypress tests:
-	1. Go to /Project
+	1. Go to /CypressSauceDemo
 	2. Run command "npm run cypress:gui"
 
 In case of any problems:
