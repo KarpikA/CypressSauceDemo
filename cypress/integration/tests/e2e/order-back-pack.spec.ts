@@ -29,7 +29,7 @@ describe('Ordering items flow tests', () => {
     });
 
     viewports.forEach(viewport => {
-        it(`should add back pack and go through checkout`, () => {
+        it(`[${viewport}] should add back pack and go through checkout`, () => {
             cy.viewport(viewport);
             LoginHelper.loginUser();
 
